@@ -1,0 +1,59 @@
+{
+  "name": "vertragsfrei",
+  "version": "1.0.0",
+  "description": "Kündigungsschreiben Generator - Kostenlos und einfach zu verwenden",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "nuxt start",
+    "lint": "eslint .",
+    "type-check": "vue-tsc --noEmit",
+    "build:static": "nuxt generate",
+    "build:ssr": "nuxt build"
+  },
+  "dependencies": {
+    "@nuxt/fonts": "0.11.4",
+    "@nuxt/icon": "1.14.0",
+    "@nuxtjs/tailwindcss": "7.0.0-beta.0",
+    "@pinia/nuxt": "0.11.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1",
+    "nuxt": "^3.17.5",
+    "pinia": "^3.0.3",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "eslint": "^8.0.0",
+    "vue-tsc": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "kündigungsschreiben",
+    "kündigung",
+    "generator",
+    "rechtssicher",
+    "fitnessstudio",
+    "streaming",
+    "telekom"
+  ],
+  "author": "vertragsfrei",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vertragsfrei/vertragsfrei.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vertragsfrei/vertragsfrei/issues"
+  },
+  "homepage": "https://vertragsfrei.org"
+}
