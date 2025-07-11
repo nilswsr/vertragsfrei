@@ -21,6 +21,15 @@
           >
             Datenschutz
           </NuxtLink>
+          <a 
+            href="https://github.com/nilswsr/vertragsfrei" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="text-gray-600 hover:text-indigo-600 transition-colors duration-150 text-xs sm:text-sm font-medium flex items-center gap-1"
+          >
+            <Icon name="i-simple-icons-github" size="16" />
+            GitHub
+          </a>
         </div>
       </div>
     </div>
